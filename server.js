@@ -162,7 +162,7 @@ app.put("/api/dataRows/:rowIndex/step", async (req, res) => {
   }
 });
 
-const PORT = 5000;
+const PORT = 6001;
 app.listen(PORT, () => {
   console.log(`::::::::::::Server is running::::::::::::`);
 });
