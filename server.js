@@ -6,7 +6,7 @@ const DataRow = require("./models/DataRow");
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors({ origin: "http://localhost:3000" })); // Replace with your frontend URL
+app.use(cors({ origin: "*" })); // Replace with your frontend URL
 
 // Connect to MongoDB
 const mongoURI = "mongodb+srv://contentsimplified4u:content%40123@cluster0.aad41.mongodb.net/salespipeline"; // Replace with your MongoDB URI
